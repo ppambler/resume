@@ -142,7 +142,33 @@ BEM 是一种基于组件的命名方法
 
 **➹：**[CSS选择器笔记 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2009/03/css_selectors.html)
 
+### ⑩绝对居中的几种姿势？
 
+常见的flex布局姿势：
+
+```css
+#container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+```
+
+**➹：**[【前端攻略】最全面的水平垂直居中方案与flexbox布局 - ChokCoco - 博客园](http://www.cnblogs.com/coco1s/p/4444383.html)
+
+### ⑪在用flex做绝对居中的时候，flex容器的padding能否影响flex item的绝对居中？
+
+确实会影响，居中相对的是content啊！
+
+<script async src="//jsfiddle.net/Ambler/u4mgbxpv/4/embed/html,css,result/"></script>
+
+
+
+
+
+
+
+⑫⑬⑭⑮⑯⑰⑱⑲⑳
 
 
 
