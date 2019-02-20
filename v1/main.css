@@ -15,7 +15,7 @@ body {
 
 .wrapper {
     display: flex;
-    padding: 3% 3% 3% 0;
+    padding: 3% 20px 3% 0;
     background: #ececec;
 }
 
@@ -27,7 +27,7 @@ aside {
 .wrapper main {
     width: 75%;
     background-color: #fff;
-    height: 500px;
+    /* height: 500px; */
 }
 
 /* header-start */
@@ -107,7 +107,7 @@ ul.contact span:nth-child(2) {
 /* triangle-start */
 .triangle-wrapper {
     display: flex;
-    margin-top: 10%;
+    margin-top: 20px;
 }
 
 .triangle-wrapper .small-triangle {
@@ -183,3 +183,17 @@ ul.know-more a {
 }
 
 /* others-end */
+
+/* main-start */
+main {
+    background-color: #fff;
+    padding: 40px 20px 40px 40px;
+}
+
+main .intro {
+    display: flex;
+}
+
+.intro p {
+    margin-left: 40px;
+}
