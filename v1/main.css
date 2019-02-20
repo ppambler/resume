@@ -20,7 +20,8 @@ body {
 }
 
 aside {
-    width: 25%;
+    /* 固定宽度吧！ */
+    width: 280px;
 }
 
 .wrapper main {
@@ -63,7 +64,7 @@ aside header::after {
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 240px 20px 0;
+    border-width: 0 268px 20px 0;
     border-color: transparent #d6d6d6 transparent transparent;
     box-shadow: 1px -1px 3px 0px #d6d6d6d1;
 }
@@ -103,4 +104,48 @@ ul.contact span:nth-child(2) {
 
 /* contact-end */
 
+/* triangle-start */
+.triangle-wrapper {
+    display: flex;
+    margin-top: 10%;
+}
+
+.triangle-wrapper .small-triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 8px 5px;
+    border-color: transparent transparent #7bbaaa transparent;
+}
+
+/* triangle-end */
+
+
 /* skills-start */
+
+.skills {
+    padding: 20px;
+    background-color: #7bbaaa;
+    color: #fff;
+}
+
+.skills dl dt {
+    color: #eee;
+    padding-top: 20px;
+}
+
+/* 作为背景 */
+.skills dl dd {
+    height: 4px;
+    background: #74c5b5;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/* 作为前景 */
+.skills dd .mastery {
+    height: 4px;
+    background-color: #fff;
+    display: block;
+    border-radius: 4px;
+}
