@@ -36,19 +36,47 @@ BEM 是一种基于组件的命名方法
 2. commom.css
 3. main.css
 
+**④pdf版**
 
+![1550733204920](img/1550733204920.png)
 
-
+**➹：** [pdf](./pdf/rusume.pdf)
 
 
 
 ## ★总结
 
 - 写起来很慢啊！
+
 - 我本来打算写死高度的，可是想了想，是可以用padding之类的呀！
+
 - 难道我真得要PC端写一份，然后移动端又写一份？
+
 - 得多写CSS才行，不为什么，只为熟悉它，即便就目前而言，性价比不高！
+
 - 多写多练，管它是抄的还是自己想出来的！
+
+- 把HTML元素看作是毛坯房或者是矩形框，而CSS显然是润色和装修了。
+
+  ![img](img/v2-14f95db42b4f73b346b2bdd648379fa0_hd.jpg)
+
+  **➹：**[学不会 CSS？ - 知乎](https://www.zhihu.com/question/36725219)
+
+  关于CSS书写顺序：
+
+  1. 位置属性(position, top, right, z-index, display, float等)
+  2. 大小(width, height, padding, margin)
+  3. 文字系列(font, line-height, letter-spacing, color- text-align等)
+  4. 背景(background, border等)
+  5. 其他(animation, transition等)
+
+  **➹：**[推荐大家使用的CSS书写规范、顺序 - 抽风的二七 - 博客园](http://www.cnblogs.com/iceyhu/p/4424150.html)
+
+- 关于margin的使用，如果是一个元素对应多个元素，那就用margin，如果多一个元素一起那就padding呗！
+
+  如：
+
+  ![1550731838063](img/1550731838063.png)
 
 ## ★知识盲点
 

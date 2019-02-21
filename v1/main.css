@@ -16,6 +16,8 @@ body {
 .wrapper {
     display: flex;
     padding: 3% 20px 3% 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
     background: #ececec;
 }
 
@@ -196,4 +198,22 @@ main .intro {
 
 .intro p {
     margin-left: 40px;
+}
+
+/* main-end */
+
+/* projects-start */
+
+.projects h2,
+.about-me h2 {
+    font-size: 40px;
+    color: #d9d9d9;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.projects .item {
+    display: flex;
+    align-content: flex-start;
 }
