@@ -40,7 +40,7 @@ BEM 是一种基于组件的命名方法
 
 ![1550733204920](img/1550733204920.png)
 
-**➹：** [pdf](./pdf/rusume.pdf)
+**➹：** [pdf](https://github.com/ppambler/resume/blob/master/v1/pdf/resume.pdf)
 
 
 
