@@ -1,7 +1,8 @@
 body {
   margin: 0;
   color: #666;
-  font: 14px/1.5 Arial;
+  font: 14px/1.5 Iosevka, Arial;
+  background: #efefef;
 }
 
 .layout {
@@ -9,11 +10,12 @@ body {
   flex-wrap: wrap;
   max-width: 960px;
   margin: 10px auto;
+  background-color: white;
 }
 
 header {
   width: 100%;
-  padding-top: 90px;
+  padding-top: 70px;
   padding-bottom: 20px;
   text-align: center;
   background: #3c3c3e;
@@ -28,13 +30,12 @@ header h1 {
 header p {
   margin-top: 0;
   color: #808082;
-  font-size: 16px;
 }
 
 aside {
-  width: 33%;
+  width: 24%;
   text-align: center;
-  background-color: gold;
+  border-right: 1px solid #ccc;
 }
 
 aside img {
@@ -42,7 +43,7 @@ aside img {
   height: 100%;
 }
 
-aside div {
+aside .cut {
   display: inline-block;
   overflow: hidden;
   width: 160px;
@@ -51,22 +52,96 @@ aside div {
   border-radius: 50%;
 }
 
+section {
+  padding-bottom: 20px;
+  margin: 30px 20px 0 20px;
+  text-align: start;
+  border-bottom: 1px solid #ccc;
+}
+
+section a {
+  color: #333;
+  text-decoration: none;
+}
+
+section a:hover {
+  font-weight: bold;
+}
+
+section h2 {
+  color: #3097d1;
+  font-size: 16px;
+}
+
+.personal .item span:first-child {
+  display: inline-block;
+  width: 80px;
+}
+
+.personal .item span:last-child::before {
+  content: ":";
+  margin-right: 10px;
+}
+
+.skills .item {
+  display: flex;
+  align-items: center;
+}
+
+.skills .keyword {
+  width: 80px;
+}
+
+.skills .rule {
+  flex: 1;
+  height: 4px;
+  background: #ccc;
+}
+
+.skills .rule i {
+  display: block;
+  width: 10%;
+  height: 4px;
+  background: #000;
+}
+
+.contact .item,
+.blog .item {
+  display: flex;
+  align-items: center;
+}
+
+.contact svg,
+.blog svg {
+  overflow: hidden;
+  width: 1em;
+  height: 1em;
+  font-weight: bold;
+  vertical-align: -.15em;
+
+  fill: currentColor;
+}
+
+.contact .item span,
+.blog .item span {
+  margin-left: 10px;
+}
+
 main {
   flex: 1;
   min-height: calc(100vh - 160px);
-  background-color: yellowgreen;
 }
 
 @media (max-width: 768px) {
   aside {
     width: 100%;
   }
-  aside div {
+  aside .cut {
     width: 100px;
     height: 100px;
   }
   header {
     padding-top: 20px;
-    padding-bottom: 90px;
+    padding-bottom: 70px;
   }
 }
